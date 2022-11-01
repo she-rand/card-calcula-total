@@ -1,0 +1,35 @@
+.principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.color{
+    display: flex;
+    flex-direction: row;
+    
+    height: 3rem;
+    width: 10rem;
+    
+}
+.circulo{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 2rem;
+}
+.bg-color-green{
+    background-color: #6fa41b    !important;
+    color: white;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+.btn-primary{
+    background-color: chocolate !important;
+}
+.resultados{
+    font-size: 2rem;
+}
